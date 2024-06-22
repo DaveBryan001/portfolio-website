@@ -5,40 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dave Bryan Tamakloe</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" type="image/x-icon" href="/images/dave.svg">
 </head>
 
 <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="/images/logo.png" class="logo" alt="my logo" usemap="#homepage">
-                <map name="homepage">
-                    <area shape="default" coords="" href="index.html" alt="my logo">
-                </map>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <!-- <p>menu</p> -->
-            </nav>
-            <hr padding: 70px>
-            <div class="header-text">
-                <p>Software Developer</p>
-                <h1>Hi, I'm <span>Dave Bryan</span> from Ghana</h1>
-                <img src="images/dave.svg" alt="my avatar"
+    <nav class="header">
+        <div>
+            <img class="logo" src="/images/logo.png" alt="my logo" usemap="#homepage">
+            <map name="homepage">
+                <area shape="default" coords="" href="index.html" alt="my logo">
+            </map>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home-container">
+            <div class="home-text">
+                <p class="section-text">Software Developer</p>
+                <h1 class="title">Hi, I'm <span>Dave Bryan</span> <br/>from Ghana</h1>
+            </div>
+            <div>
+                <img class="profile-img" src="images/darker2.svg" alt="my avatar" width="100px">
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- ------------about------------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
+        <div class="about-container">
+            <div class="about-row">
                 <div class="about-col-1">
-                    <img src="/images/IMG_5896.jpg">
+                    <img class="my-img" src="/images/IMG_5896.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1>About Me</h1>
@@ -58,7 +65,7 @@
                         and exploring the latest movies for inspiration. I'm always seeking new challenges and
                         opportunities to grow, so feel free to connect and let's create something amazing together!
 
-                        </p>
+                    </p>
 
                 </div>
             </div>
