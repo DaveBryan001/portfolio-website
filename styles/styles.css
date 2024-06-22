@@ -23,7 +23,6 @@ body {
     justify-content: space-between;
     padding: 0 20px;
     align-items: center;
-    display: none;
 }
 
 .logo {
@@ -52,7 +51,6 @@ body {
     /* justify-content: space-around; */
     height: 100vh;
     width: 100%;
-    display: none;
 }
 
 .home-container {
@@ -89,7 +87,6 @@ span {
 
 #about {
     height: 100vh;
-    display: none;
 }
 
 .about-row {
