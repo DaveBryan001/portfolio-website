@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+background-image: url(/images/under-construction.png);
+background-size: cover;
+}
+
+body {
+    background-color: rgb(13, 20, 43);
+    color: white;
+    padding: 10px 8%;
+    display: none;
+}
+
+/* ---------header------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    display: none;
+}
+
+.logo {
+    width: 350px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links li {
+    list-style: none;
+    justify-content: space-between;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+#home {
+    display: flex;
+    /* justify-content: space-around; */
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.home-container {
+    display: flex;
+    margin: 300px 50px 300px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.home-text {
+    margin-left: 50px;
+}
+
+.profile-img {
+    margin-right: 15rem;
+    width: 350px;
+}
+
+.title {
+    font-size: 60px;
+}
+
+span {
+    color: rgb(233, 147, 35);
+}
+
+/* ----about---- */
+.my-img {
+    width: 300px;
+    border-radius: 1rem;
+}
+
+#about {
+    height: 100vh;
+    display: none;
+}
+
+.about-row {
+    display: flex;
+    /* margin: 40px; */
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    width: 100%;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
